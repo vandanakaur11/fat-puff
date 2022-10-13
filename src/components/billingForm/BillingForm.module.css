@@ -1,0 +1,514 @@
+.warningMsg {
+  color: red;
+  font-weight: bold;
+}
+
+.checkoutWrapper {
+  margin: 0px 8%;
+  /* border: 1px solid lightgray; */
+  /* background-color: #f5f5f5; */
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.mainHeading {
+  color: var(--eggPlant);
+  font-weight: bold;
+}
+
+.questionDiv {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  border-top: 3px solid var(--eggPlant);
+  display: flex;
+  align-items: center;
+}
+.questionDiv span {
+  color: var(--eggPlant);
+}
+.questionDiv span:hover {
+  color: var(--iris);
+  cursor: pointer;
+}
+.questionDiv h2 {
+  margin-left: 10px;
+}
+.couponContainer {
+  margin: 20px 0px;
+  /* margin-left: 10px; */
+}
+.couponWrapper {
+  display: flex;
+  margin: 30px 0px;
+}
+.couponWrapper input {
+  width: 300px;
+  height: 50px;
+  border: 1px solid var(--eggPlant);
+  padding-left: 10px;
+  outline: none;
+}
+.couponWrapper button {
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  background-color: var(--eggPlant);
+  border: none;
+}
+.couponWrapper button:hover {
+  cursor: pointer;
+  background-color: var(--iris);
+}
+.bottomWrap {
+  display: flex;
+}
+
+/* styling for left Div starts */
+
+.bottomWrapLeft {
+  width: 60%;
+  /* border: 1px solid black; */
+  padding: 20px;
+}
+.bottomWrapLeft h2 {
+  font-weight: bold;
+  color: var(--eggPlant);
+  margin: 20px 0px;
+}
+
+.namesWrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.namesWrap h3 {
+  color: var(--eggPlant);
+  font-weight: bold;
+}
+.namesWrap input {
+  width: 20vw;
+  height: 50px;
+  border: 1px solid var(--eggPlant);
+  outline: none;
+  border-radius: 4px;
+}
+.companynameWrapMultiple {
+  margin: 20px 0px;
+}
+.companynameWrapMultiple h3 {
+  color: var(--eggPlant);
+  font-weight: bold;
+}
+.companynameWrapMultiple input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--eggPlant);
+  outline: none;
+  border-radius: 4px;
+}
+
+.countrynameWrap h3 {
+  color: var(--eggPlant);
+  font-weight: bold;
+}
+.countrynameWrap select {
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--eggPlant);
+  outline: none;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.streetaddressWrap {
+  margin: 20px 0px;
+}
+.streetaddressWrap h3 {
+  color: var(--eggPlant);
+  font-weight: bold;
+}
+.streetaddressWrap input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--eggPlant);
+  outline: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.townWrap h3 {
+  color: var(--eggPlant);
+  font-weight: bold;
+}
+.townWrap input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--eggPlant);
+  outline: none;
+  border-radius: 4px;
+}
+
+.statenameWrap {
+  margin: 20px 0px;
+}
+.statenameWrap input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--eggPlant);
+  outline: none;
+  border-radius: 4px;
+}
+.statenameWrap h3 {
+  color: var(--eggPlant);
+  font-weight: bold;
+}
+.statenameWrap select {
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--eggPlant);
+  outline: none;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.subscribeWrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  /* border: 1px solid var(--eggPlant); */
+}
+.subscribeWrap h3 {
+  color: var(--eggPlant);
+  font-weight: bold;
+  margin: 0px 10px;
+}
+.subscribeWrap input {
+  height: 20px;
+  width: 20px;
+}
+
+.shipAddressWrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  margin: 40px 0px;
+}
+
+.shipAddressWrap h3 {
+  color: var(--eggPlant);
+  font-weight: bold;
+  margin: 0px 10px;
+  font-size: 20px;
+}
+.shipAddressWrap input {
+  height: 20px;
+  width: 20px;
+}
+.orderNotes {
+  margin: 20px 0px;
+}
+.orderNotes h3 {
+  color: var(--eggPlant);
+  font-weight: bold;
+}
+
+.orderNotes textarea {
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--eggPlant);
+  outline: none;
+  border-radius: 4px;
+}
+
+/* styling for Left div ends */
+
+/* styling for right div starts */
+.bottomWrapRight {
+  width: 40%;
+  /* border: 1px solid var(--eggPlant); */
+  box-shadow: 0px 0px 2px 1px var(--eggPlant);
+  padding: 20px;
+  height: fit-content;
+}
+.bottomWrapRight h2 {
+  color: var(--eggPlant);
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.productHeading {
+  display: flex;
+  border-bottom: 1px solid var(--eggPlant);
+}
+.productHeading div {
+  width: 50%;
+}
+.productHeading h3 {
+  color: var(--eggPlant);
+  font-weight: bold;
+}
+.productDetails {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0px;
+}
+.productDetails div {
+  width: 50%;
+}
+.productDetails div:nth-child(2) {
+  margin-left: 10px;
+}
+.productSubtotalMultiple {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--eggPlant);
+  border-top: 1px solid var(--eggPlant);
+}
+.productSubtotalMultiple div {
+  width: 50%;
+  margin-top: 10px;
+}
+.productSubtotalMultiple h3 {
+  font-weight: bold;
+  color: var(--eggPlant);
+}
+
+.shippingOrder {
+  display: flex;
+  margin: 20px 0px;
+  /* border-bottom: 1px solid var(--eggPlant); */
+}
+
+.shippingOrder div {
+  width: 80%;
+}
+.shippingOrder h3 {
+  color: var(--eggPlant);
+  font-weight: bold;
+}
+.shippingOrderInner {
+  display: flex;
+}
+.shippingOrderInner input {
+  margin-top: 6px;
+}
+.shippingOrderInner h3 {
+  margin-left: 20px;
+}
+
+.paymentDebitCredit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid var(--eggPlant); */
+  margin-top: 30px;
+}
+.card h3 {
+  margin-left: 10px;
+  color: var(--eggPlant);
+  font-weight: bold;
+  /* border: 1px solid var(--eggPlant); */
+  height: auto;
+  margin: 10px 0px;
+  margin-left: 10px;
+}
+
+.cardBox {
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 30px 0px;
+  background-color: #e8e8e8;
+  padding-bottom: 30px;
+}
+.cardBox h3 {
+  margin: 20px 0px;
+  color: var(--eggPlant);
+  font-weight: bold;
+}
+.cardBox input {
+  height: 50px;
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+.cardBoxInner {
+  display: flex;
+  justify-content: space-between;
+}
+.cardBoxInner input {
+  width: 98%;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+}
+.cardBoxInner h3 {
+  margin: 10px 0px;
+  font-weight: normal;
+  color: black;
+}
+.cardNumber {
+  color: black !important;
+  font-weight: normal !important;
+}
+
+.dataText {
+  margin: 20px 0px;
+}
+
+.dataText span {
+  color: var(--eggPlant);
+  font-weight: bold;
+}
+.dataText span:hover {
+  cursor: pointer;
+}
+
+.agreeWrap {
+  display: flex;
+  margin: 30px 0px;
+}
+.agreeWrap span {
+  color: var(--eggPlant);
+}
+.agreeWrap input {
+  margin-top: 5px;
+}
+.agreeWrap h4 {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.Btn {
+  padding: 10px;
+  background-color: var(--eggPlant);
+  width: 200px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+.Btn:hover {
+  background-color: var(--iris);
+  cursor: pointer;
+}
+
+/* styling for right div ends */
+
+@media (max-width: 1366px) {
+  .checkoutWrapper {
+    margin: 0px 12%;
+  }
+  .namesWrap input {
+    width: 240px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .namesWrap input {
+    width: 220px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .checkoutWrapper {
+    margin: 0px 5%;
+  }
+  .namesWrap input {
+    width: 234px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .checkoutWrapper {
+    margin: 0px 3%;
+    padding: 15px;
+  }
+  .namesWrap input {
+    width: 220px;
+  }
+}
+@media (max-width: 900px) {
+  .namesWrap input {
+    width: 192px;
+  }
+  .cardBoxInner input {
+    width: 110px;
+  }
+  .cardBoxInner h3 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 800px) {
+  .bottomWrap {
+    flex-direction: column;
+  }
+  .bottomWrapLeft {
+    width: 100%;
+  }
+  .bottomWrapRight {
+    width: 100%;
+  }
+  .namesWrap input {
+    width: 300px;
+  }
+  .cardBoxInner input {
+    width: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .cardBoxInner input {
+    width: 240px;
+  }
+  .namesWrap input {
+    width: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cardBoxInner input {
+    width: 190px;
+  }
+  .namesWrap input {
+    width: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .namesWrap {
+    flex-direction: column;
+  }
+  .cardBoxInner {
+    flex-direction: column;
+  }
+  .cardBoxInner input {
+    width: 100%;
+  }
+  .namesWrap input {
+    width: 100%;
+  }
+  .namesWrap div {
+    margin: 10px 0px;
+  }
+  .shipAddressWrap h3 {
+    font-size: 18px;
+  }
+  .couponWrapper button {
+    font-size: 14px;
+  }
+}
+@media (max-width: 380px) {
+}

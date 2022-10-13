@@ -1,0 +1,32 @@
+.productMain {
+    padding: 0px 10vw;
+    margin-top: 6vh;
+}
+.prodDesc {
+    color: var(--eggPlant);
+}
+.prodDesc .name {
+    font-size: 30px;
+}
+.prodDesc .price {
+    font-size: 30px;
+    color: #7b0e0e;
+    font-weight: bold;
+}
+.prodDesc .desc p {
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--iris);
+}
+
+/* .additionalInfoHeading {
+    color: var(--eggPlant);
+}
+.descriptionInfoHeading p:nth-child(1) {
+    color: var(--iris);
+    font-family: "Montserrat";
+}
+.descriptionInfoHeading p:nth-child(2) {
+    color: var(--eggPlant);
+} */

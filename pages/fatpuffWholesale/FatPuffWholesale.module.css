@@ -1,0 +1,19 @@
+.FatPuffWholesWrapper {
+    margin: 50px 15%;
+}
+
+.FatPuffWholesWrapper h1 {
+    text-align: center;
+    font-weight: bold;
+    color: var(--eggPlant);
+    margin: 100px 0px;
+}
+
+.FatPuffWholesWrapper h2 {
+    margin: 30px 0px;
+    color: var(--iris);
+    font-weight: bold;
+}
+.FatPuffWholesWrapper h3 {
+    margin: 50px 0px;
+}

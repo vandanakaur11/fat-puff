@@ -1,0 +1,406 @@
+.WholeSaleWrapper {
+}
+
+.wholesaleIframe {
+    width: 100%;
+
+    height: 150vh;
+    border: none;
+    overflow: hidden;
+
+    margin: -80px 0;
+}
+
+.WholeSaleHeading {
+    text-align: center;
+    color: var(--eggPlant);
+    margin: 4vh 15vw;
+}
+.WholeSaleBottomWrapper {
+    margin: 8vh 15vw;
+    padding: 0px 1vw;
+    /* border: 1px solid black; */
+}
+
+.WholeSaleBottomHeading {
+    color: var(--iris);
+}
+
+.WholeSaleContact {
+    margin: 4vh 20vw;
+}
+.WholeSaleContact h1 {
+    color: var(--eggPlant);
+}
+
+.WholeSaleNameWrapper {
+    margin: 2vh 0px;
+}
+.WholeSaleNameWrapper div {
+    font-size: 16px;
+    font-weight: bold;
+    color: #484848;
+    margin: 8px 0px;
+}
+.WholeSaleNameWrapper input {
+    width: 15vw;
+    height: 40px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.WholeSaleInfoWrapper {
+    margin: 2vh 0px;
+    margin-top: 40px;
+}
+.WholeSaleInfoWrapper div {
+    font-size: 16px;
+    font-weight: bold;
+    color: #484848;
+    margin: 8px 0px;
+}
+
+.WholeSaleInfoWrapperInner div {
+    font-size: 14px;
+
+    color: #484848;
+    margin: 1px 0px;
+    margin-left: 8px;
+    font-weight: normal;
+}
+
+.WholeSaleInfoWrapperInner {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.WholeSaleBusinessWrapper {
+    margin: 2vh 0px;
+    margin-top: 30px;
+}
+.WholeSaleBusinessWrapper div {
+    font-size: 16px;
+    font-weight: bold;
+    color: #484848;
+    margin: 8px 0px;
+}
+
+.WholeSaleBusinessWrapper input {
+    width: 15vw;
+    height: 40px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.WholeSaleStateWrapper {
+    margin: 2vh 0px;
+    margin-top: 30px;
+}
+.WholeSaleStateWrapper div {
+    font-size: 16px;
+    font-weight: bold;
+    color: #484848;
+    margin: 8px 0px;
+}
+
+.WholeSaleStateWrapper input {
+    width: 15vw;
+    height: 40px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.WholeSalePurchaseWrapper {
+    font-size: 16px;
+    font-weight: bold;
+    color: #484848;
+    margin: 8px 0px;
+    margin-top: 30px;
+}
+
+.WholeSalePurchaseWrapperInner {
+    display: flex;
+    width: 360px;
+    /* border: 1px solid black; */
+    align-items: center;
+    margin: 10px 0px;
+}
+.WholeSalePurchaseWrapperInner div {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #484848;
+    font-weight: normal;
+}
+
+.WholeSaleQuantityWrapper div {
+    font-size: 16px;
+    font-weight: bold;
+    color: #484848;
+    margin: 8px 0px;
+    margin-top: 30px;
+}
+
+.WholeSaleQuantityWrapperInner div {
+    font-size: 14px;
+    font-weight: normal;
+    color: #484848;
+    margin: 0px 0px;
+    margin-left: 10px;
+}
+.WholeSaleQuantityWrapperInner {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 340px;
+    align-items: center;
+}
+
+.WholeSaleEmailWrapper {
+    margin: 2vh 0px;
+}
+
+.WholeSaleEmailWrapper div {
+    font-size: 16px;
+    font-weight: bold;
+    color: #484848;
+    margin: 8px 0px;
+}
+.WholeSaleEmailWrapper input {
+    width: 15vw;
+    height: 40px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.WholeSalePhoneWrapper {
+    margin: 2vh 0px;
+}
+.WholeSalePhoneWrapper div {
+    font-size: 16px;
+    font-weight: bold;
+    color: #484848;
+    margin: 8px 0px;
+}
+.WholeSalePhoneWrapper input {
+    width: 15vw;
+    height: 40px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.WholeSaleQuestionWrapper {
+    margin: 2vh 0px;
+}
+
+.WholeSaleQuestionWrapper div {
+    font-size: 16px;
+    font-weight: bold;
+    color: #484848;
+    margin: 8px 0px;
+}
+
+.WholeSaleQuestionWrapper input {
+    width: 25vw;
+    height: 40px;
+    padding-left: 5px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+
+.WholeSaleBtn {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 16px;
+    background-color: var(--eggPlant);
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+
+@media (max-width: 1500px) {
+    .wholesaleIframe {
+        height: 175vh;
+    }
+}
+@media (max-width: 1400px) {
+    .wholesaleIframe {
+        height: 180vh;
+    }
+}
+
+@media (max-width: 1050px) {
+    .WholeSaleHeading {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .WholeSaleBottomHeading {
+        font-size: 20px;
+    }
+    .WholeSaleNameWrapper input {
+        width: 20vw;
+    }
+    .WholeSaleBusinessWrapper input {
+        width: 20vw;
+    }
+    .WholeSaleStateWrapper input {
+        width: 20vw;
+    }
+
+    .WholeSaleEmailWrapper input {
+        width: 20vw;
+    }
+    .WholeSalePhoneWrapper input {
+        width: 20vw;
+    }
+    .WholeSaleQuestionWrapper input {
+        width: 35vw;
+    }
+    .WholeSaleContact h1 {
+        text-align: center;
+    }
+    .WholeSaleContact h3 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .WholeSaleHeading {
+        font-size: 17px;
+    }
+    .WholeSaleBottomHeading {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .WholeSaleNameWrapper input {
+        width: 25vw;
+    }
+    .WholeSaleBusinessWrapper input {
+        width: 25vw;
+    }
+    .WholeSaleStateWrapper input {
+        width: 25vw;
+    }
+
+    .WholeSaleEmailWrapper input {
+        width: 25vw;
+    }
+    .WholeSalePhoneWrapper input {
+        width: 25vw;
+    }
+    .WholeSaleQuestionWrapper input {
+        width: 45vw;
+    }
+    .WholeSaleBtn {
+        padding: 10px;
+    }
+    .wholesaleIframe {
+        height: 140vh;
+    }
+}
+
+@media (max-width: 736px) {
+    .WholeSaleHeading {
+        font-size: 15px;
+    }
+    .WholeSaleBottomHeading {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .WholeSaleNameWrapper input {
+        width: 45vw;
+    }
+    .WholeSaleBusinessWrapper input {
+        width: 45vw;
+    }
+    .WholeSaleStateWrapper input {
+        width: 45vw;
+    }
+
+    .WholeSaleEmailWrapper input {
+        width: 45vw;
+    }
+    .WholeSalePhoneWrapper input {
+        width: 45vw;
+    }
+    .WholeSaleQuestionWrapper input {
+        width: 50vw;
+    }
+    .wholesaleIframe {
+        height: 355vh;
+    }
+}
+@media (max-width: 670px) {
+    .wholesaleIframe {
+        height: 395vh;
+    }
+}
+@media (max-width: 530px) {
+    .wholesaleIframe {
+        height: 215vh;
+    }
+}
+@media (max-width: 420px) {
+    .WholeSaleBottomWrapper {
+        margin: 8vh 8vw;
+    }
+    .WholeSaleHeading {
+        font-size: 14px;
+        margin: 4vh 6vw;
+    }
+    .WholeSaleBottomHeading {
+        /* font-size: 14px; */
+        font-weight: bold;
+    }
+    .WholeSaleNameWrapper input {
+        width: 65vw;
+    }
+
+    .WholeSaleBusinessWrapper input {
+        width: 65vw;
+    }
+    .WholeSaleStateWrapper input {
+        width: 65vw;
+    }
+
+    .WholeSaleEmailWrapper input {
+        width: 65vw;
+    }
+    .WholeSalePhoneWrapper input {
+        width: 65vw;
+    }
+    .WholeSaleQuestionWrapper input {
+        width: 75vw;
+    }
+    .WholeSaleBtn {
+        font-size: 15px;
+        padding: 8px;
+        margin: 45px auto;
+    }
+    .WholeSaleContact h1 {
+        font-size: 25px;
+    }
+    .WholeSaleContact h3 {
+        font-size: 15px;
+    }
+    .WholeSaleContact {
+        margin: 4vh 14vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .WholeSaleBottomWrapper {
+        margin: 8vh 4vw;
+    }
+    .WholeSaleContact h3 {
+        font-size: 14px;
+    }
+    .wholesaleIframe {
+        height: 240vh;
+    }
+}

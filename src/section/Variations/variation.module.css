@@ -1,0 +1,86 @@
+.variationMain {
+    margin-top: 40px;
+    width: 50vw;
+    margin: 30px auto;
+}
+.variationMain h1 {
+    font-weight: bold;
+    color: var(--eggPlant);
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--eggPlant);
+}
+.rowText {
+    font-weight: normal;
+}
+
+.quantity {
+    width: 60px;
+}
+.addToCart {
+    padding: 8px 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    font-size: small;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.variationMain button {
+    height: 30px;
+    font-size: 12px;
+}
+/* .mainCartTable {
+  width: 70%;
+  margin: 30px auto;
+}
+.mainCartTable td {
+  font-weight: bold;
+  font-size: large;
+}
+.mainCartTable input {
+  font-weight: bold;
+  font-size: large;
+} */
+
+@media (max-width: 1366px) {
+    .variationMain {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 1150px) {
+    .variationMain {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .variationMain {
+        width: 80vw;
+    }
+    .variationMainInner {
+        min-width: 800px;
+    }
+    .title {
+        font-size: 14px;
+    }
+    .variationMain button {
+        font-size: 10px;
+        padding: 6px 8px;
+    }
+    .quantity {
+        width: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .variationMainInner {
+        min-width: 600px;
+    }
+}

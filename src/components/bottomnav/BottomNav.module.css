@@ -1,0 +1,327 @@
+.BottomNavWrapper {
+    width: 100%;
+    height: 7vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.BottomNavLeft {
+    /* border: 1px solid black; */
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.BottomNavCenter {
+    /* border: 1px solid black; */
+    width: 44vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .BottomNavCenter div {
+    font-weight: bold;
+    color: #303030;
+} */
+
+.BottomNavRight {
+    /* border: 1px solid black; */
+    width: 26vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.BottomNavLeftText {
+    color: var(--iris);
+    font-weight: bold;
+    /* font-family: "Montserrat"; */
+}
+
+.BottomNavRightText {
+    color: var(--iris);
+    font-weight: bold;
+    /* font-family: "Montserrat"; */
+    /* font-size: 16px; */
+}
+
+/* .BottomNavCenter div:hover {
+    color: #bd0028;
+    cursor: pointer;
+} */
+
+/* .BottomNavCenterProducts {
+    display: flex;
+    align-items: center;
+}
+
+.BottomNavCenterCustomers {
+    display: flex;
+    align-items: center;
+} */
+
+.dropbtn {
+    /* background-color: #04aa6d; */
+    color: var(--iris);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    height: 65vh;
+    overflow-y: scroll;
+}
+.dropdownContentCustomer {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    height: fit-content;
+    overflow-y: scroll;
+}
+
+.dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownContentCustomer a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownContent a:hover {
+    background-color: var(--iris);
+    color: #fff;
+}
+
+.dropdownContentCustomer a:hover {
+    background-color: var(--iris);
+    color: #fff;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdown:hover .dropdownContentCustomer {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    color: var(--iris);
+    color: "";
+}
+
+.BottomNavIcon {
+    color: var(--iris);
+    font-size: 30px;
+}
+
+@media (max-width: 1440px) {
+    .BottomNavLeftText {
+        font-size: 14px;
+    }
+    .BottomNavRightText {
+        font-size: 14px;
+    }
+    .BottomNavCenter div {
+        font-size: 14px;
+    }
+    .BottomNavRight {
+        width: 28vw;
+    }
+    .BottomNavLeft {
+        width: 20vw;
+    }
+}
+
+@media (max-width: 1340px) {
+    .BottomNavRight {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 1260px) {
+    .BottomNavLeftText {
+        font-size: 13px;
+    }
+    .BottomNavRightText {
+        font-size: 13px;
+    }
+    .BottomNavIcon {
+        font-size: 25px;
+    }
+    .dropbtn {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 1160px) {
+    .BottomNavRight {
+        width: 35vw;
+    }
+    .BottomNavLeft {
+        width: 22vw;
+    }
+    .BottomNavLeftText {
+        font-size: 12px;
+    }
+}
+@media (max-width: 1025px) {
+    .BottomNavRight {
+        width: 38vw;
+    }
+    .BottomNavLeft {
+        width: 25vw;
+    }
+    .BottomNavLeftText {
+        font-size: 14px;
+    }
+    .BottomNavRightText {
+        font-size: 14px;
+    }
+    .BottomNavCenter {
+        display: none;
+    }
+}
+
+@media (max-width: 960px) {
+    .BottomNavLeftText {
+        font-size: 12px;
+    }
+    .BottomNavRightText {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    .BottomNavCenter {
+        display: none;
+    }
+    .BottomNavLeft {
+        width: 34%;
+    }
+    .BottomNavRight {
+        width: 48%;
+    }
+    .BottomNavWrapper {
+        height: 35px;
+    }
+    .BottomNavLeftText {
+        font-size: 12px;
+    }
+    .BottomNavRightText {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 700px) {
+    .BottomNavRight {
+        width: 49%;
+    }
+    .BottomNavLeftText {
+        font-size: 11px;
+    }
+    .BottomNavRightText {
+        font-size: 11px;
+    }
+}
+@media (max-width: 550px) {
+    .BottomNavLeft {
+        width: 50%;
+        /* font-size: 8px; */
+        padding-top: 2vh;
+    }
+    .BottomNavRight {
+        width: 70%;
+        /* font-size: 8px; */
+        padding-bottom: 1vh;
+    }
+    .BottomNavLeftText {
+        font-size: 12px;
+    }
+    .BottomNavRightText {
+        font-size: 12px;
+    }
+    .BottomNavWrapper {
+        flex-direction: column;
+        height: 9.5vh;
+    }
+}
+
+@media (max-width: 460px) {
+    /* .BottomNavIcon {
+        width: 55%;
+    }*/
+    .BottomNavRight {
+        width: 80%;
+    }
+}
+
+@media (max-width: 420px) {
+    .BottomNavLeft {
+        width: 60%;
+        /* font-size: 8px; */
+        padding-top: 1vh;
+    }
+    .BottomNavRight {
+        width: 85%;
+        /* font-size: 8px; */
+        padding-bottom: 1vh;
+    }
+    .BottomNavLeftText {
+        font-size: 12px;
+    }
+    .BottomNavRightText {
+        font-size: 12px;
+    }
+    .BottomNavWrapper {
+        flex-direction: column;
+        height: 9vh;
+    }
+}
+
+@media (max-width: 380px) {
+    .BottomNavLeft {
+        width: 60%;
+        /* font-size: 8px; */
+        padding-top: 2vh;
+    }
+    .BottomNavRight {
+        width: 85%;
+        /* font-size: 8px; */
+        padding-bottom: 1vh;
+    }
+    .BottomNavRightText {
+        font-size: 11px;
+    }
+    .BottomNavLeftText {
+        font-size: 11px;
+    }
+}

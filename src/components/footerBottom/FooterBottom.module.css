@@ -1,0 +1,74 @@
+.footerBottomText {
+    border-top: 1px solid #d8d8d8;
+    margin-top: 5vh;
+    padding: 30px 10vw;
+    font-size: 14px;
+    color: #606060;
+}
+
+.footerBottom {
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #c0c0c0;
+    /* margin-top: 2vh; */
+    padding: 12px 0px;
+}
+.footerIconLinkedIn {
+    font-size: 35px;
+    color: #0077b5;
+    margin: 0px 5px;
+}
+.footerIconFb {
+    font-size: 35px;
+    color: #3b5998;
+    margin: 0px 5px;
+}
+.footerIconPint {
+    font-size: 35px;
+    color: #e60023;
+    margin: 0px 5px;
+}
+.footerIconInsta {
+    font-size: 35px;
+    color: #fe4164;
+    margin: 0px 5px;
+}
+
+.footerBottomLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 25%; */
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    height: 70px;
+    width: 150px;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+    background-color: var(--eggPlant);
+}
+
+@media (max-width: 800px) {
+    .footerBottomText div {
+        text-align: center;
+    }
+}
+
+@media (max-width: 770px) {
+    .footerBottomContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 420px) {
+    .footerIconWrap {
+        margin-left: 30vw;
+    }
+}
+@media (max-width: 375px) {
+    .footerIconWrap {
+        margin-left: 27vw;
+    }
+}

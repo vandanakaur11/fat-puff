@@ -1,0 +1,110 @@
+.eachSlide div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.eachSlide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+
+@media (max-width: 1366px) {
+    .eachSlide div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 55vh;
+    }
+}
+@media (max-width: 1200px) {
+    .eachSlide div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 55vh;
+    }
+}
+@media (max-width: 1024px) {
+    .eachSlide div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+    }
+}
+@media (max-width: 800px) {
+    .eachSlide div {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 250px;
+    }
+}
+@media (max-width: 750px) {
+    .eachSlide div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 220px;
+    }
+}
+@media (max-width: 690px) {
+    .eachSlide div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media (max-width: 600px) {
+    .eachSlide div {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 200px;
+    }
+}
+
+/*
+@media (max-width: 1300px) {
+    .eachSlide div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+    }
+}
+@media (max-width: 1250px) {
+    .eachSlide div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 45vh;
+    }
+}
+@media (max-width: 1100px) {
+    .eachSlide div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 40vh;
+    }
+}
+@media (max-width: 1000px) {
+    .eachSlide div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 35vh;
+    }
+}
+
+@media (max-width: 850px) {
+    .eachSlide div {
+        height: 30vh;
+    }
+} */

@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+.bannerMain {
+    /* margin: 20px 0; */
+    font-family: "Audiowide", cursive;
+    /* margin-top: 20vh;
+  margin-bottom: 10vh; */
+    margin: 20px 0;
+    width: 100%;
+}
+.bannerMain h1,
+.bannerMain h3 {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    color: #fff;
+}
+.bannerCont {
+    /* color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: c; */
+    /* width: 500px; */
+    background-color: #fff;
+    height: 350px;
+    /* border: 1px solid rgba(155, 155, 155, 0.35); */
+    border-radius: 16px;
+}
+
+.bannerCont .bannerContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: auto; */
+    /* background: rgba(155, 155, 155, 0.35); */
+    background: #fff;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 16px;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    background-repeat: no-repeat;
+    backdrop-filter: blur(8.4px);
+    -webkit-backdrop-filter: blur(8.4px);
+    border: 1px solid rgba(155, 155, 155, 0.3);
+
+    padding: 20px;
+    height: 100%;
+
+    margin: 10px 10px 10px auto;
+}
+.bannerCont .bannerContent button {
+    margin-top: 10px;
+    color: var(--iris);
+}
+.bannerContShop {
+    margin-left: 70% !important;
+    line-height: 1.5;
+}
+.bannerContSignup {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+}
+.bannerContSignup h1 {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    text-transform: uppercase;
+}
+.bannerContSignup p {
+    margin: 0;
+    font-size: large;
+}
+
+.signupRight {
+    display: flex;
+    align-items: center;
+}
+.signupRight svg {
+    font-size: 70px;
+    margin-right: 7px;
+}
+
+.bannerCont h1 {
+    width: 60%;
+    text-align: center;
+    color: var(--iris);
+}
+.bannerCont button {
+    background: transparent;
+    border: 2px solid var(--iris);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+.bannerCont button:hover {
+    background-color: var(--iris);
+    /* border-color: white; */
+    color: white;
+}
+.bannerContSignup button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+.bannerContSignup button:hover {
+    background-color: var(--eggPlant);
+    border-color: var(--eggPlant);
+}
+.bannerContSignup input {
+    color: rgb(29, 28, 28);
+    padding: 10px 20px;
+    height: 46px;
+    outline: none;
+    border: none;
+
+    /* width: ; */
+}
+
+.bannerContSignup .inpCont {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+@media (max-width: 1450px) {
+    .signupRight h1 {
+        font-size: 18px;
+    }
+    .signupRight p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .bannerContShop {
+        margin-left: 35% !important;
+    }
+    .bannerContSignup {
+        flex-direction: column;
+    }
+    .signupRight h1 {
+        /* font-size: 17px; */
+    }
+    .signupRight p {
+        /* font-size: 13px; */
+    }
+}
+
+@media (max-width: 1200px) {
+    .bannerMain h1 {
+        font-size: 20px;
+        line-height: 2;
+    }
+    .bannerCont button {
+        margin: 0 auto !important;
+    }
+    .bannerCont h1 {
+        margin: 0 auto !important;
+    }
+    .bannerCont h3 {
+        margin: 0 auto !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    /* .bannerContSignup {
+        flex-direction: column;
+    } */
+    .inpCont {
+        margin-right: 8%;
+    }
+}
+
+@media (max-width: 990px) {
+    .bannerCont .bannerContent {
+        width: 100%;
+    }
+    .inpCont {
+        margin-right: 15%;
+    }
+}
+
+@media (max-width: 800px) {
+    .bannerMain h1 {
+        font-size: 16px;
+    }
+    .bannerMain p {
+        font-size: 10px;
+    }
+    .bannerContSignup {
+        align-items: center;
+    }
+    .inpCont {
+        margin-right: 0%;
+        justify-content: center;
+    }
+    /* .bannerCont button {
+        margin-top: 10px;
+    } */
+}
+@media (max-width: 420px) {
+    .bannerMain h1 {
+        font-size: 17px;
+        line-height: 2.5;
+        margin-left: 0px;
+    }
+    .bannerCont button {
+        font-size: 10px;
+        /* margin: 20px 0px; */
+        margin: 0 auto;
+    }
+    .bannerCont h1 {
+        margin: 0 auto !important;
+        line-height: 2;
+    }
+    .bannerCont h3 {
+        margin: 0 auto !important;
+        line-height: 2;
+    }
+    .inpCont input {
+        width: 150px;
+        height: 34px;
+    }
+    .inpCont button {
+        font-size: 10px;
+        padding: 7px 14px;
+    }
+    .signupRight svg {
+        font-size: 50px;
+    }
+    .signupRight h1 {
+        font-size: 14px;
+    }
+    .signupRight p {
+        font-size: 10px !important;
+    }
+    .signupRight {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 380px) {
+    .bannerCont h3 {
+        font-size: 15px;
+    }
+}

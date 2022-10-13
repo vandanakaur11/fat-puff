@@ -1,0 +1,7 @@
+.mapStyle {
+    border: 0;
+    border-top: 1px solid var(--iris);
+    border-bottom: 1px solid var(--iris);
+    width: 100%;
+    height: 400px;
+}

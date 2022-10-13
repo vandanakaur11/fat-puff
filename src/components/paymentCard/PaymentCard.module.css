@@ -1,0 +1,151 @@
+.card {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid var(--eggPlant); */
+    margin-top: 30px;
+}
+.card h3 {
+    margin-left: 10px;
+    color: var(--eggPlant);
+    font-weight: bold;
+    /* border: 1px solid var(--eggPlant); */
+    height: auto;
+    margin: 10px 0px;
+    margin-left: 10px;
+}
+
+.cardBox {
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 30px 0px;
+    background-color: #e8e8e8;
+    padding-bottom: 30px;
+}
+.cardBox h3 {
+    margin: 20px 0px;
+    color: var(--eggPlant);
+    font-weight: bold;
+}
+.cardBox input {
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+
+.cardBoxInner {
+    display: flex;
+    justify-content: space-between;
+}
+.cardBoxInner input {
+    width: 98%;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+.cardBoxInner h3 {
+    margin: 10px 0px;
+    font-weight: normal;
+    color: black;
+}
+.cardNumber {
+    color: black !important;
+    font-weight: normal !important;
+}
+
+@media (max-width: 1366px) {
+    .checkoutWrapper {
+        margin: 0px 12%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .checkoutWrapper {
+        margin: 0px 5%;
+    }
+    .namesWrap input {
+        width: 234px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .checkoutWrapper {
+        margin: 0px 3%;
+        padding: 15px;
+    }
+    .namesWrap input {
+        width: 220px;
+    }
+}
+@media (max-width: 900px) {
+    .namesWrap input {
+        width: 192px;
+    }
+    .cardBoxInner input {
+        width: 110px;
+    }
+    .cardBoxInner h3 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 800px) {
+    .bottomWrap {
+        flex-direction: column;
+    }
+    .bottomWrapLeft {
+        width: 100%;
+    }
+    .bottomWrapRight {
+        width: 100%;
+    }
+    .namesWrap input {
+        width: 300px;
+    }
+    .cardBoxInner input {
+        width: 300px;
+    }
+}
+
+@media (max-width: 700px) {
+    .cardBoxInner input {
+        width: 240px;
+    }
+    .namesWrap input {
+        width: 250px;
+    }
+}
+
+@media (max-width: 600px) {
+    .cardBoxInner input {
+        width: 190px;
+    }
+    .namesWrap input {
+        width: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .namesWrap {
+        flex-direction: column;
+    }
+    .cardBoxInner {
+        flex-direction: column;
+    }
+    .cardBoxInner input {
+        width: 100%;
+    }
+    .namesWrap input {
+        width: 100%;
+    }
+    .namesWrap div {
+        margin: 10px 0px;
+    }
+    .shipAddressWrap h3 {
+        font-size: 18px;
+    }
+    .couponWrapper button {
+        font-size: 14px;
+    }
+}
+@media (max-width: 380px) {
+}

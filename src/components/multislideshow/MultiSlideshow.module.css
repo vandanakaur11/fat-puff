@@ -1,0 +1,51 @@
+.slider {
+    margin: 0 20px;
+    overflow: "hidden";
+    padding: 2rem 0;
+    /* border: 1px solid #e0e0e0; */
+    /* border-radius: 5px; */
+    /* box-shadow: 7px 4px 20px rgba(0, 0, 0, 0.2); */
+}
+
+.sliderInfo {
+    margin: 0 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.react-multi-carousel-list {
+    padding: 0rem 0 2rem 0;
+}
+
+.custom-dot-list-style button {
+    border: none;
+    background: rgb(255, 68, 68);
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button {
+    background: rgb(255, 68, 68) !important;
+}
+
+.sliderButton {
+    padding: 8px;
+    background-color: #7b0e0e;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    border-radius: 3px;
+}
+.sliderButton:hover {
+    background-color: #bd0028;
+    cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    .sliderButton {
+        font-size: 14px;
+    }
+}

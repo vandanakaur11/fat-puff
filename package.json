@@ -1,0 +1,38 @@
+{
+    "name": "fat-puff",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.7.1",
+        "@emotion/styled": "^11.6.0",
+        "@mui/icons-material": "^5.2.5",
+        "@mui/material": "^5.2.6",
+        "@reduxjs/toolkit": "^1.7.1",
+        "antd": "^4.18.2",
+        "axios": "^0.24.0",
+        "dotenv": "^10.0.0",
+        "google-map-react": "^2.1.10",
+        "next": "12.0.7",
+        "react": "17.0.2",
+        "react-credit-cards": "^0.8.3",
+        "react-dom": "17.0.2",
+        "react-inner-image-zoom": "^2.1.0",
+        "react-multi-carousel": "^2.6.5",
+        "react-redux": "^7.2.6",
+        "react-slideshow-image": "^3.6.0",
+        "redux": "^4.1.2",
+        "redux-devtools-extension": "^2.13.9",
+        "redux-thunk": "^2.4.1",
+        "sweetalert2": "^11.3.4",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "eslint": "8.5.0",
+        "eslint-config-next": "12.0.7"
+    }
+}

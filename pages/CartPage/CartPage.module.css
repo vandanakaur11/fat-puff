@@ -1,0 +1,202 @@
+.mainCartTable {
+    width: 70%;
+    margin: 30px auto;
+}
+.mainCartTable td {
+    font-weight: bold;
+    font-size: large;
+}
+.mainCartTable input {
+    font-weight: bold;
+    font-size: large;
+}
+
+.mainHeading {
+    font-family: "Montserrat";
+    color: var(--eggPlant);
+    font-weight: bold;
+}
+
+.title {
+    color: var(--eggPlant);
+    font-weight: bold;
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+.deleteIcon {
+    color: var(--eggPlant);
+}
+
+.tableContainer {
+    padding: 20px;
+}
+
+.productData {
+    font-family: "Montserrat";
+}
+
+.cartCard {
+    margin-top: 40px;
+    width: 50%;
+    margin-left: auto;
+}
+
+.productImg {
+    height: 120px !important;
+    width: 120px !important;
+    object-fit: contain;
+}
+
+.emptyCartBtn {
+    font-size: 18px;
+    background-color: var(--eggPlant);
+    width: 200px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px auto;
+}
+.emptyCartBtn:hover {
+    background-color: var(--iris);
+    cursor: pointer;
+}
+
+.couponPart {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+
+.couponPartInner {
+    display: flex;
+}
+.couponPartInner input {
+    border: 1px solid lightgray;
+    height: 40px;
+    width: 240px;
+    padding-left: 10px;
+    outline: none;
+}
+.applyBtn {
+    font-size: 16px;
+    background-color: var(--eggPlant);
+    padding: 7px;
+    color: white;
+    border-radius: 4px;
+}
+.updateBtn {
+    font-size: 16px;
+    background-color: var(--eggPlant);
+    padding: 7px;
+    color: white;
+    border-radius: 4px;
+}
+.applyBtn:hover {
+    cursor: pointer;
+    background-color: var(--iris);
+}
+.updateBtn:hover {
+    cursor: pointer;
+    background-color: var(--iris);
+}
+
+.cartTotal {
+    margin-top: 40px;
+    width: 50%;
+    margin-left: auto;
+}
+
+@media (max-width: 1200px) {
+    .mainCartTable {
+        width: 80%;
+    }
+    .cartCard {
+        margin-top: 40px;
+        width: 60%;
+        margin-left: auto;
+    }
+    .cartTotal {
+        width: 80%;
+        margin: 40px auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .productData {
+        font-size: 14px !important;
+    }
+    .mainCartTable {
+        width: 90%;
+    }
+    .cartCard {
+        margin-top: 40px;
+        width: 100%;
+        margin-left: auto;
+    }
+    .productImg {
+        height: 100px !important;
+        width: 100px !important;
+        object-fit: contain;
+    }
+    .couponPartInner input {
+        height: 30px;
+        width: 200px;
+    }
+    .applyBtn {
+        font-size: 13px;
+
+        padding: 5px;
+    }
+    .updateBtn {
+        font-size: 13px;
+
+        padding: 5px;
+    }
+}
+
+@media (max-width: 700px) {
+    .title {
+        font-size: 13px;
+    }
+    .productData {
+        font-size: 10px !important;
+    }
+    .productImg {
+        height: 80px !important;
+        width: 80px !important;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 600px) {
+    .mainCartTable {
+        width: 96%;
+    }
+    .tablerowStyle {
+        overflow-x: scroll;
+    }
+    .cartCard title {
+        font-size: 10px;
+    }
+    .titleBottom {
+        font-size: 14px !important;
+        font-family: "Montserrat";
+        color: var(--eggPlant);
+    }
+    .cartTotal {
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .couponPart {
+        flex-direction: column;
+    }
+    .updateBtn {
+        width: 90px;
+        margin-top: 20px;
+    }
+}
